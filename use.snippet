@@ -1,0 +1,14 @@
+	// 选择图片或相机拍照
+	/**
+	 * ${2:图片文件}
+	 */
+	const ${0:r$CURRENT_SECONDS_UNIX} = await(() => {
+		const count = ${1:9};	// count 最多可以选择的图片张数
+		const sizeType = ['original'， 'compressed'];	// 所选的图片的尺寸 original 原图，compressed 压缩图
+		const sourceType = ['album', 'camera'];	// 选择图片的来源 album 从相册选图，camera 使用相机
+		return awx17(count, sizeType, sourceType);
+	})();
+	if ($0) {
+		// todo
+		const { tempFilePaths, tempFiles } = $0;
+	}
