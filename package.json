@@ -1,6 +1,6 @@
 {
 	"name": "@mmstudio/awx000017",
-	"version": "1.0.202004031042",
+	"version": "1.0.202004170924",
 	"description": "选择图片或相机拍照",
 	"scripts": {
 		"test": "tsc -w",
